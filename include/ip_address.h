@@ -1,6 +1,7 @@
 #include <sys/socket.h>
 #include <iostream>
 #include <arpa/inet.h>
+#include <netinet/in.h>
 
 #ifndef IP_ADDRESS_H
 #define IP_ADDRESS_H
