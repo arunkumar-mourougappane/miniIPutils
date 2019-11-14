@@ -28,8 +28,8 @@ APPS = \
 	build/app/gtest_mini_ip_utilities/gtest_mini_ip_utilities
 
 GTEST_MINI_IP_UTILITIES_OBJS = \
-	src/app/gtest_mini_ip_utilities/gtest_ip_address.o \
-	src/app/gtest_mini_ip_utilities/gtest_mini_ip_utilities.o
+	build/app/gtest_mini_ip_utilities/gtest_ip_address.o \
+	build/app/gtest_mini_ip_utilities/gtest_mini_ip_utilities.o
 
 
 all: gtest tree libs apps
