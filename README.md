@@ -8,25 +8,25 @@ An advanced self managing IP Address Utility tool capable of managing both manag
 
 CIPAddress wrapper library can process any IP address format from one among the following:
 
-- std::string
-- const char*
-- struct in_addr_t
-- struct in_addr
-- struct in6_addr
-- struct sockaddr_storage
+-   std::string
+-   const char*
+-   struct in_addr_t
+-   struct in_addr
+-   struct in6_addr
+-   struct sockaddr_storage
 
-**APIs:**
+**APIs**
 
-- GetIPFamily() returns the IP Address family.
-- IsValidIP() returns if IP is valid or not.
-- GetString() returns a string for the IP Address.
-- GetIPAddressBytes() returns a sockaddr_storage structure.
-- GetIPAddress(struct in_addr & byteAddress ) returns 0 on success with valid IPv4 address populated to byte address.
-- GetIPAddress(struct in6_addr & byteAddress ) returns 0 on success with valid IPv6 address populated to byte address.
-- Compare(const CIPAddress& IpAddress)  compare a CIPAddress instance with current insance.
-- to_string() provides a string representation of a class.
+-   GetIPFamily() returns the IP Address family.
+-   IsValidIP() returns if IP is valid or not.
+-   GetString() returns a string for the IP Address.
+-   GetIPAddressBytes() returns a sockaddr_storage structure.
+-   GetIPAddress(struct in_addr & byteAddress ) returns 0 on success with valid IPv4 address populated to byte address.
+-   GetIPAddress(struct in6_addr & byteAddress ) returns 0 on success with valid IPv6 address populated to byte address.
+-   Compare(const CIPAddress& IpAddress)  compare a CIPAddress instance with current insance.
+-   to_string() provides a string representation of a class.
 
-**Example of Use:**
+**Example of Use**
 
 Here are some examples of the use for CIPAddress class implementation.
 
