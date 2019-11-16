@@ -33,9 +33,9 @@ Here are some examples of the use for CIPAddress class implementation.
 ```cpp
 #include <CIPAddress.h>
 
-CIPAddress obj("127.0.01");
+CIPAddress obj("127.0.0.1");
 // Checking for validty
-if (obj) // Also obj.IsValidIP() can be use to check validity.
+if (obj) // Also obj.IsValidIP() can be used to check validity.
 {
     std::cout << "Valid IP Address";
 }
