@@ -18,14 +18,13 @@ cd gtest || exit 1
 
 cmake ../googletest/
 
-make -j${CPUCORES}
-if [ $? -ne 0 ]
+if make -j"${CPUCORES}"
 then
    echo "Build Failed"
-   cd ${START_DIR}
+   cd "${START_DIR}"
    exit 1
 else
    echo "Google Test Framework built!"
-   cd ${START_DIR}
+   cd "${START_DIR}"
    exit 0
 fi
