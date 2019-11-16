@@ -1,6 +1,6 @@
 # miniIPutils <img src="images/ip_address.png" width="30">
 
-[![Build Status](https://travis-ci.com/arunkumar-mourougappane/miniIPutils.svg?branch=master)](https://travis-ci.com/arunkumar-mourougappane/miniIPutils) [![CodeFactor](https://www.codefactor.io/repository/github/arunkumar-mourougappane/miniiputils/badge/master)](https://www.codefactor.io/repository/github/arunkumar-mourougappane/miniiputils/overview/master)
+[![Build Status](https://travis-ci.com/arunkumar-mourougappane/miniIPutils.svg?branch=master)](https://travis-ci.com/arunkumar-mourougappane/miniIPutils) [![CodeFactor](https://www.codefactor.io/repository/github/arunkumar-mourougappane/miniiputils/badge/master)](https://www.codefactor.io/repository/github/arunkumar-mourougappane/miniiputils/overview/master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b0d8e92ce993414683d472fdbb137cbb)](https://www.codacy.com/manual/amouroug/miniIPutils?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arunkumar-mourougappane/miniIPutils&amp;utm_campaign=Badge_Grade)
 
 An advanced self managing IP Address Utility tool capable of managing both managing IPv4 and IPv6 Address.
 
