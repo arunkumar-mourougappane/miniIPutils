@@ -204,7 +204,6 @@ namespace mini_ip_utilities
       if(GetIPFamily() == AF_INET6)
       {
          byteAddress = ((struct sockaddr_in6*)&mIPAddressBytes)->sin6_addr;
-
       }
       else
       {
@@ -253,7 +252,6 @@ namespace mini_ip_utilities
          {
             return false;
          }
-         
       }
       else
       {
