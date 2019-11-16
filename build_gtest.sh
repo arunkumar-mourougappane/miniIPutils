@@ -18,7 +18,7 @@ cd gtest || exit 1
 
 cmake ../googletest/
 
-if make -j"${CPUCORES}"
+if ! make -j"${CPUCORES}"
 then
    echo "Build Failed"
    cd "${START_DIR}"
